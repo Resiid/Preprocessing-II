@@ -172,6 +172,34 @@ table {
   width: 30%;
   margin-bottom: 30px;
 }
+.head-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-bottom: dashed 2px #C0C0C0;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+.head-cont .header {
+  margin-left: 0px;
+}
+.head-cont .header .nav {
+  border: 1px solid;
+  width: 80%;
+  align-items: center;
+}
+.head-cont .header .nav .nav a {
+  border: 1px solid;
+  align-items: center;
+  text-decoration: none;
+  color: #212529;
+}
+img {
+  margin-left: 15%;
+  height: auto;
+  max-width: 100%;
+}
 * {
   box-sizing: border-box;
 }
